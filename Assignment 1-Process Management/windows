@@ -5,6 +5,6 @@ Get-Process -Name "totally_not_malicious"
 
 # Terminating multiple processes
 Get-Process -Name "*razzle*"
-taskkill /F /PID 1984
-taskkill /F /PID 1884
+taskkill /F /PID 1336
+taskkill /F /PID 2380
 Get-Process -Name "*razzle*"
