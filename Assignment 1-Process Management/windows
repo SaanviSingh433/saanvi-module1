@@ -1,6 +1,6 @@
 # Terminating a specific process
 Get-Process -Name "totally_not_malicious"
-taskkill /F /PID 1332
+taskkill /F /PID 3692
 Get-Process -Name "totally_not_malicious"
 
 # Terminating multiple processes
